@@ -81,5 +81,5 @@ Create a C++ DLL with a function that takes two integers as input and performs c
 6. **Display Results:**
    - Display the results returned by the C++ DLL on the console screen.
 
-These step-by-step instructions should help you work through each component of your project. Be sure to test and debug at each stage to ensure everything is working as expected.
+These step-by-step instructions that  help me work through each component of your project. I was  sure to test and debug at each stage to ensure everything is working as expected.
 
