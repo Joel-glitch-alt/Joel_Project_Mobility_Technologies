@@ -1,60 +1,85 @@
-# Project Name: C sharp Project for Dot Net Framework
+# Project Name: Project Employement Joel Dot. Net Applications
 
 ## Description
-Briefly describe the project and its main components.
+This project comprises three main components: a Windows desktop application in C#, an ASP.NET MVC web project, and calling a C++ DLL from a C# console application. Each component has its own set of tasks and implementation steps.
 
 ## Windows Desktop Application (C#)
 
-### Task Description
-- Detailed description of the Windows desktop application task.
+**Task Description:**
+Create a Windows desktop application in C# that performs prime number calculations and displays the results in a listbox.
 
-### Implementation Steps
-1. Describe the user interface.
-2. Explain the prime number calculation.
-3. Discuss the use of threading.
-4. How results are displayed.
+**Step-by-Step Implementation:**
+
+1. **User Interface Design:**
+   - Create a Windows Forms Application.
+   - Design the application with two textboxes (for input), two buttons (for calculation), and a listbox (for displaying results).
+
+2. **Prime Number Calculation Function:**
+   - Implement a function to find prime numbers up to the input number. You can use standard algorithms for this (e.g., trial division).
+
+3. **Multithreading:**
+   - Use threading to perform calculations in separate threads to prevent the application from freezing during computation.
+   - Implement thread management to create and manage threads for calculation.
+
+4. **Updating the Listbox:**
+   - Update the listbox with the results from each thread.
+   - Ensure that the UI is updated properly when each thread completes its calculation.
 
 ## ASP.NET MVC Web Project
 
-### Task Description
-- Detailed description of the ASP.NET MVC web project task.
+**Task Description:**
+Create an ASP.NET MVC web project with two main features: linking to an entity (presumably a database) and a web service.
 
-### Implementation Steps
-1. Explain project setup.
-2. Describe menu and navigation.
-3. "Link Entity" section:
-   - Adding, deleting, and listing records.
-4. "Web Service" (if applicable).
+**Step-by-Step Implementation:**
+
+1. **Set Up ASP.NET MVC Project:**
+   - Create a new ASP.NET MVC project.
+
+2. **Navigation Menu:**
+   - Add a left-side navigation menu for easy access to different sections of the application.
+
+3. **Link Entity Section:**
+   - Create views for adding, deleting, and listing records.
+   - Use Entity Framework to interact with a SQL Server or PostgreSQL database.
+
+4. **Record Add Functionality:**
+   - Implement a screen where users can enter name, surname, and age information.
+   - Use Entity Framework to insert this data into the database.
+
+5. **Record Delete Functionality:**
+   - Implement a screen where users can enter the name to be deleted, and then delete the corresponding record from the database.
+
+6. **Record List Functionality:**
+   - List records from the database in the "Record List" view. Fetch data using Entity Framework and display it on the web page.
+
+7. **Web Service (if applicable):**
+   - Create a controller for the web service.
+   - Define the API endpoints and methods for the web service.
 
 ## Calling C++ DLL from C# Console Application
 
-### Task Description
-- Detailed description of the C++ DLL and C# console application task.
+**Task Description:**
+Create a C++ DLL with a function that takes two integers as input and performs calculations. Create a C# console application that calls this DLL.
 
-### Implementation Steps
-1. Building the C++ DLL.
-2. Creating the C# console application.
-3. Importing and calling the C++ DLL.
-4. Displaying results.
+**Step-by-Step Implementation:**
 
-## Getting Started
+1. **Create C++ DLL:**
+   - Write the C++ code for the DLL that includes a function to perform calculations on two integers.
 
-Provide step-by-step instructions for setting up and running the project. Include prerequisites, software requirements, and any configurations needed.
+2. **Build and Compile DLL:**
+   - Build and compile the C++ DLL to produce a DLL file that can be used in other applications.
 
-## Usage
+3. **Create C# Console Application:**
+   - Create a new C# console application in Visual Studio or your preferred development environment.
 
-Explain how to use each component of the project and provide examples if necessary.
+4. **Import the C++ DLL:**
+   - Import the C++ DLL as a reference in your C# project.
 
-## Contributing
+5. **Call DLL Functions:**
+   - Call the functions from the C++ DLL in your C# application. Pass two integer values as input parameters.
 
-If you want to encourage contributions, describe how others can contribute to the project.
+6. **Display Results:**
+   - Display the results returned by the C++ DLL on the console screen.
 
-## License
+These step-by-step instructions should help you work through each component of your project. Be sure to test and debug at each stage to ensure everything is working as expected.
 
-State the license under which the project is released.
-
-## Acknowledgements
-
-Give credit to any external libraries or resources used in the project.
-
-# Joel_Project_Mobility_Technologies
