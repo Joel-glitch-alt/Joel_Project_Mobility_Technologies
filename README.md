@@ -70,10 +70,10 @@ Create a C++ DLL with a function that takes two integers as input and performs c
    - Build and compile the C++ DLL to produce a DLL file that can be used in other applications.
 
 3. **Create C# Console Application:**
-   - Create a new C# console application in Visual Studio or your preferred development environment.
+   - Create a new C# console application in Visual Studio or my preferred development environment.
 
 4. **Import the C++ DLL:**
-   - Import the C++ DLL as a reference in your C# project.
+   - Import the C++ DLL as a reference in my C# project.
 
 5. **Call DLL Functions:**
    - Call the functions from the C++ DLL in your C# application. Pass two integer values as input parameters.
@@ -81,5 +81,6 @@ Create a C++ DLL with a function that takes two integers as input and performs c
 6. **Display Results:**
    - Display the results returned by the C++ DLL on the console screen.
 
-These step-by-step instructions that  help me work through each component of your project. I was  sure to test and debug at each stage to ensure everything is working as expected.
+These step-by-step instructions that  help me work through each component of the project. I was  sure to test and debug at each stage to ensure everything is working as expected.
+
 
